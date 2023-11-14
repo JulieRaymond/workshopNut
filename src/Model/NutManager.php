@@ -6,7 +6,7 @@ use PDO;
 
 class NutManager extends AbstractManager
 {
-    const TABLE = 'nut';
+    public const TABLE = 'nut';
 
     public function getAllStocks()
     {

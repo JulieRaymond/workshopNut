@@ -20,7 +20,7 @@ class NutController extends AbstractAPIController
     {
         if ($_SERVER['REQUEST_METHOD'] === "POST") {
             $nutManager = new NutManager();
-            $nutManager->decrementStock($id);;
+            $nutManager->decrementStock($id);
 
             $updatedStocks = $nutManager->getAllStocks();
 
